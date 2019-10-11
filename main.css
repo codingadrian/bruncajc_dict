@@ -1,0 +1,79 @@
+.container {
+
+  margin-top: 5%;
+
+}
+
+ 
+
+.form-group {
+
+  width: 75%;
+
+}
+
+ 
+
+.word_result {
+
+  width: 30%;
+
+  margin-top: 25px;
+
+  padding: 10px;
+
+}
+
+ 
+
+section {
+
+  font-size: small;
+
+}
+
+ 
+
+.search_word {
+
+  font-weight: bold;
+
+  font-size: 1.2rem;
+
+}
+
+ 
+
+.pos {
+
+  font-style: italic;
+
+}
+
+ 
+
+/* add new word */
+
+ 
+
+.add-form {
+
+  width: 40%;
+
+}
+
+ 
+
+label.add_word {
+
+  line-height: 2.2rem;
+
+}
+
+ 
+
+input.add_word {
+
+  width: 50%;
+
+}
