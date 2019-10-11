@@ -1,264 +1,125 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
- 
-
 <head>
-
   <meta charset="UTF-8">
-
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
   <title>Conlang</title>
 
- 
-
   <!-- Latest compiled and minified CSS -->
-
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-
- 
-
+  
+  <!-- Main CSS -->
   <link rel="stylesheet" href="main.css" type="text/css">
-
 </head>
-
- 
 
 <body>
 
- 
-
   <div class="container">
-
     <header class="text-center">
-
       <h1>Bruncajc Tec Dictionary</h1>
-
     </header>
 
     <!-- nav bar -->
-
     <nav class="navbar navbar-expand-sm justify-content-center">
 
       <!-- links -->
-
       <ul class="navbar-nav">
-
         <li class="nav-item">
-
           <a class="nav-link" href="#">Dictionary</a>
-
         </li>
-
         <li class="nav-item">
-
           <a class="nav-link" href="#">Grammar</a>
-
         </li>
-
         <li class="nav-item">
-
           <a class="nav-link" href="#">Collaborate</a>
-
         </li>
-
       </ul>
-
     </nav>
 
- 
-
     <!-- search bar -->
-
- 
-
     <div class="form-group form-inline mx-auto justify-content-center">
-
       <label for="search" class="sr-only">Search:</label>
-
       <input type="text" class="form-control" id="search" placeholder="Search...">
-
       <button type="submit" class="btn mx-2 btn-outline-dark" onclick="search()" id="searchBtn">Search</button>
-
     </div>
 
- 
-
     <!-- word display -->
-
     <section>
-
       <div class="word_result mx-auto">
-
- 
-
         <!-- these is to accommodate the search results-->
-
         <p class="search_word"><span class="search_word" id="search_word">...</span></p>
-
- 
-
         <p class="not_found"><span class="not_found" id="not_found"></span></p>
-
- 
-
         <p class="pos">pos: <span class="pos" id="pos">...</span></p>
-
- 
-
         <p class="origin">origin: <span class="origin" id="origin">...</span></p>
-
- 
-
         <p class="result_brun">bruncajc: <span class="result_brun" id="result_brun">...</span></p>
-
- 
-
         <p class="result_spanish">spanish: <span class="result_spanish" id="result_spanish">...</span></p>
-
- 
-
         <p class="result_english">english: <span class="result_english" id="result_english">...</span></p>
-
- 
-
       </div>
 
- 
-
       <hr>
-
- 
 
       <!-- add new word -->
-
       <div class="add text-center mx-auto">
-
         <p>If the word you searched for does not exist, no results will be displayed.</p>
-
         <p>If you wish to add a word, please submit it below:</p>
 
- 
-
         <!-- add form -->
-
         <div class="add-form form-group mx-auto">
-
- 
-
           <!-- form item-->
-
           <div class="d-flex justify-content-between align-items-center">
-
             <label for="search" class="add_word">Add new word in Bruncajc:</label>
-
             <input type="text" class="form-control add_word" id="new_word_br" placeholder="New word in Bruncajc">
-
           </div>
 
- 
-
           <!-- form item-->
-
           <div class="d-flex justify-content-between align-items-center">
-
             <label for="search" class="add_word">Add new word in Spanish:</label>
-
             <input type="text" class="form-control add_word" id="new_word_sp" placeholder="New word in Spanish">
-
           </div>
 
- 
-
           <!-- form item-->
-
           <div class="d-flex justify-content-between align-items-center">
-
             <label for="search" class="add_word">Add new word in English:</label>
-
             <input type="text" class="form-control add_word" id="new_word_en" placeholder="New word in English">
-
           </div>
 
- 
-
           <!-- form item-->
-
           <div class="d-flex justify-content-between align-items-center">
-
             <label for="search" class="add_word">Add new word Part of Speech:</label>
-
             <input type="text" class="form-control add_word" id="new_word_pos" placeholder="New word's PoS">
-
           </div>
-
- 
 
           <!-- form item-->
-
           <div class="d-flex justify-content-between align-items-center">
-
             <label for="search" class="add_word">Add new word origin:</label>
-
             <input type="text" class="form-control add_word" id="new_word_origin" placeholder="New word's origin">
-
           </div>
-
- 
 
           <button type="submit" class="btn m-3 btn-outline-dark">Add</button>
-
-
-
         </div><!-- end of add form -->
-
- 
-
       </div><!-- end of add new word -->
-
- 
 
       <hr>
 
- 
-
     </section><!-- end of word display-->
-
- 
-
   </div><!-- end of .container-->
 
-
-
-
-
-
-  <script src="main.js"></script>
-
- 
+  <script src="script.js"></script>
 
   <!-- jQuery library -->
-
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
- 
-
   <!-- Popper JS -->
-
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 
- 
-
   <!-- Latest compiled JavaScript -->
-
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
 </body>
 
- 
+
 
 </html>
